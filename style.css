@@ -1,0 +1,361 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 10%;
+   background: #f74780;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+    transition: 0.25s ease;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+ul li {
+    text-decoration: none;
+    margin: 0 0.75em 0 0.75em;
+    
+}
+ul:hover a {
+    color: #fff;
+}
+ul:hover a:hover {
+    color: #ffc1d5;
+    box-shadow:  0 2px 0 0 currentColor;
+}
+
+
+.início {
+    height: 100vh;
+    background: linear-gradient(-90deg, #f74780 70%, #fff 40%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% ;
+}
+
+.início-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background:#f74780;
+    border-radius: 50%;
+    border: 25px solid #fff;
+    outline: 25px solid #f74780;
+}
+
+.início-img img {
+    position: relative;
+    bottom: 55px;
+    max-width: 380px;
+
+}
+.início-content {
+    max-width: 600px;
+    color: #fff;
+    text-align: right;
+}
+.início-content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+.início-content h3 {
+    font-size: 40px;
+    color:#ffc1d5;
+    -webkit-text-stroke: .4px #fff;
+}
+.início-content p {
+    font-size: 16 px;
+    margin-top: 20px;
+}
+.início-icons {
+    margin: 25px 0 40px;
+}
+.início-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ffc1d5;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: .5s;
+}
+.início-icons a:hover{
+    background: #ffc1d5;
+    color: #fff;
+    border-color: #ffc1d5;
+    box-shadow: 0 0 10px #ffc1d5;
+}
+.background-color-Sobre{
+    background-color: #fff;
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.background-color-Sobre img{
+    width: 430px;
+    height: auto;
+}
+
+.Text-sobre{
+    width: 550px;
+  }
+
+.main-sobre{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 1130px;
+   margin: 0 auto;
+}
+
+.Text-sobre h2{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    
+}
+
+.Text-sobre h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.Text-sobre p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+
+.Container-habilidades{
+    background-color:#fff; 
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.Card{
+    background: #f74780;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    
+}
+
+.Card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: black;
+}
+
+h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.Container-projetos{
+    background-color: #fff;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: black;
+    height: 365px;
+    width: 800px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    
+}
+.Container-projetos img{
+    width: 360px;
+    height: 160px;
+    text-align: center;
+}
+
+.Container-projetos a{
+    background-color: #f74780;
+    color: white;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    margin-top: 92px;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.contato {
+    background: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+ 
+.form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .form label {
+    color: black;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+   
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f74780 ;
+    border-radius: 8px;
+    color: #f74780;
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: #f74780;
+    
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #f74780;
+    color: black;
+    font:  inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius:8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #f74780;
+  }
+
+  footer {
+    background-color: #f74780;
+    color: #FFF;
+    padding: 1.5em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
